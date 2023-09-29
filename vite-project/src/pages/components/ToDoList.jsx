@@ -19,7 +19,7 @@ export const ToDoList = ({ todoList, setTodoList }) => {
           todoList.map((todo) => (
             <div
               className={`d-flex align-items-center alert ${
-                todo.done ? "alert-primary" : "alert-warning"
+                todo.done ? "alert alert-success" : "alert alert-warning"
               } show`}
             >
               {todo.desc}
