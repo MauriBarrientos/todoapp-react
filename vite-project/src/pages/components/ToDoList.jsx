@@ -29,7 +29,7 @@ export const ToDoList = ({ todoList, setTodoList }) => {
                 type="button"
                 className="btn text-primary"
               >
-                {todo.done ? "Completada" : "Completar"}
+                {todo.done ? "Realizada" : "Realizar"}
               </button>
             </div>
           ))

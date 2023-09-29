@@ -9,8 +9,8 @@ function ToDoApp() {
     <>
       <h1>ToDo App</h1>
       <div className="d-flex m-3">
-        <button className="btn btn-success m-2">Completadas</button>
-        <button className="btn btn-primary m-2">En curso</button>
+        <button className="btn btn-success m-2">Realizadas</button>
+        <button className="btn btn-primary m-2">Por realizar</button>
       </div>
 
       <div className="row m-3">
